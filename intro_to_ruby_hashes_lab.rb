@@ -6,7 +6,7 @@ end
 
 def monopoly_with_second_tier
 	monopoly = Hash.new()
-	monopoly[:railroads] = {pieces: 4, names: {}}
+	monopoly[:railroads] = {pieces: 4, names: {},rent_in_dollars:{}}
   monopoly
 end
 
