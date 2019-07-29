@@ -12,8 +12,7 @@ end
 
 def monopoly_with_third_tier
   monopoly = Hash.new()
-	monopoly[:railroads] = {pieces: 4, names: Hash.new()}
-  monopoly
+	monopoly[:railroads][:pieces] = 4 
 
 end
 
